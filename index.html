@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>航星密室：藏寶圖解謎工作台</title>
+  <title>藏寶圖解謎工作台</title>
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts: Noto Sans TC & Noto Serif TC for adventure map feel -->
@@ -166,7 +166,7 @@
         </div>
         <div>
           <h1 class="text-sm sm:text-base font-bold tracking-wide text-amber-100 leading-tight">航星密室・藏寶圖解謎工作台</h1>
-          <p class="text-[11px] text-slate-400 hidden sm:block">互動比例尺・等高線判讀・方圓測距解謎工具</p>
+          <p class="text-[11px] text-slate-400 hidden sm:block">找出真正的藏寶地點</p>
         </div>
       </div>
 
@@ -1129,10 +1129,10 @@
         🏆
       </div>
       <div>
-        <span class="inline-block px-3 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-xs font-bold mb-2">逃脫成功・密碼完全正確</span>
-        <h2 class="text-2xl font-extrabold text-amber-200">核心能源寶箱已解鎖！</h2>
+        <span class="inline-block px-3 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-xs font-bold mb-2">成功・密碼完全正確</span>
+        <h2 class="text-2xl font-extrabold text-amber-200">趕快去主控台試看看！</h2>
         <p class="text-sm text-slate-300 mt-2 leading-relaxed">
-          太棒了！你成功透過比例尺、方位判讀與等高線地形分析，精準定位塔台並找出藏在右島高處山頂的真正寶箱！
+          太棒了！你成功透過比例尺、方位判讀與等高線地形分析，精準定位塔台並找出藏在7島高處山頂的真正寶箱！
         </p>
       </div>
 
@@ -1197,9 +1197,9 @@
       const TOOL_HINTS = {
         select: '點擊並拖曳已放置的塔台或可動比例尺；點選繪製的線條、方圓或標記即可選取並刪除。',
         tower: '點擊地圖任意位置放置（或移動）訊號塔台 📡；放置後可一鍵以塔台為圓心畫出 5 公里方圓。',
-        measure: '按住拖曳兩點量測直線距離與方位；靠近港口、塔台、寶箱或正北/水平方向會自動微吸附。',
-        circle: '點擊並拖曳畫出方圓（靠近 5 公里自動吸附），或切換「鎖定 5 公里」單擊直接繪製。',
-        stamp: '點擊寶箱或地圖位置蓋上「❌ 排除」或「⭐ 候選」標記，協助篩選正確寶箱。',
+        measure: '按住拖曳兩點量測直線距離與方位；靠近港口、塔台、寶箱或正北/水平方向會自動貼合。',
+        circle: '點擊並拖曳畫出方圓。',
+        stamp: '點擊寶箱或地圖位置蓋上「❌ 排除」或「⭐ 候選」標記，協助找到正確寶箱。',
         draw: '按住左鍵在地圖上自由繪圖或螢光筆標註，可於右側選擇三種筆色。',
         pan: '拖曳地圖平移視野，或滾動滑鼠滾輪縮放；在任何工具下按住空白鍵也可臨時平移。'
       };
